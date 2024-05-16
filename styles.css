@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #ceb8b8;
+  }
+  
+  .container {
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  h1 {
+    color: #130000;
+  }
+  
+  .timer {
+    margin-bottom: 20px;
+  }
+  
+  .input-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    margin-right: 10px;
+    color: #000000;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+    text-align: center;
+  }
+  
+  .controls button {
+    margin-right: 10px;
+    background-color: #c74bb4;
+    color: rgb(17, 0, 0);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    border: 2px solid transparent;
+  }
+  
+  .controls button:hover {
+    background-color: #4bd1d5;
+  }
+  
+  .controls button.stop {
+    background-color: #cc445b;
+  }
+  
+  .controls button.stop:hover {
+    background-color: #454ccc;
+  }
+  
+  .controls button.reset {
+    background-color: #ff9800;
+  }
+  
+  .controls button.reset:hover {
+    background-color: #811ab1;
+  }
+  
+  .controls button.restart {
+    background-color: #e5f321;
+  }
+  
+  .controls button.restart:hover {
+    background-color: #949494;
+  }
+  
